@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5DJBniWeD2wcSjhI1NvKlGE+CMte/hF5DmmzTCy/a38=",
+  "Source": "capygram.Auth",
+  "BasePath": "_content/capygram.Auth",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
