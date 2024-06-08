@@ -56,30 +56,47 @@ namespace capygram.Auth.Services
                 throw new SecurityTokenException("Invalid token");
             return principal;
         }
-        public async Task RemoveTokenInsideCookie()
-        {
 
-        }
-        public async Task SetTokenInsideCookie(string accessToken, string refreshToken, HttpContext context)
+
+        public async Task RemoveTokenInsideCookie(HttpContext context)
         {
-            context.Response.Cookies.Append("accessToken", accessToken,
-             new CookieOptions
-             {
-                 Expires = DateTimeOffset.UtcNow.AddMinutes(5),
-                 HttpOnly = true,
-                 IsEssential = true,
-                 Secure = true,
-                 SameSite = SameSiteMode.None
-             });
-            context.Response.Cookies.Append("refreshToken", refreshToken,
-                new CookieOptions
-                {
-                    Expires = DateTimeOffset.UtcNow.AddDays(1231231313),
-                    HttpOnly = true,
-                    IsEssential = true,
-                    Secure = true,
-                    SameSite = SameSiteMode.None
-                });
+            context.Response.Cookies.Append("accessToken", "", new CookieOptions
+            {
+                Expires = DateTimeOffset.Now.AddDays(-1),
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.None
+            });
+
+            // Xóa cookie "refreshToken"
+            context.Response.Cookies.Append("refreshToken", "", new CookieOptions
+            {
+                Expires = DateTimeOffset.Now.AddDays(-1),
+                HttpOnly = true,
+                Secure = true,
+                SameSite = SameSiteMode.None
+            });
+        }
+        public async Task SetTokenInsideCookie(string accessToken, string refreshToken, HttpContext context, bool isSetExpires=true)
+        {
+            var cookieOptions = new CookieOptions
+            {
+                HttpOnly = true,
+                IsEssential = true,
+                Secure = true,
+                SameSite = SameSiteMode.None
+            };
+            if (isSetExpires )
+            {
+                cookieOptions.Expires = DateTime.UtcNow.AddMinutes(3);
+                
+            }
+            context.Response.Cookies.Append("accessToken", accessToken, cookieOptions);
+            if (isSetExpires)
+            {
+                cookieOptions.Expires = DateTime.UtcNow.AddDays(2405);
+            }
+            context.Response.Cookies.Append("refreshToken", refreshToken, cookieOptions);
         }
     }
 }

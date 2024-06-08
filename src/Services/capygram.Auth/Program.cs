@@ -15,6 +15,7 @@ builder.Services
     .AddJwtAuthentication(builder.Configuration)
     .AddServices()
     .AddIdentityHandler();
+builder.Services.AddHttpContextAccessor();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

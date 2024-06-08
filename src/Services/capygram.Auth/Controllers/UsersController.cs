@@ -19,17 +19,31 @@ namespace capygram.Auth.Controllers
             _userServices = userServices;
         }
         [HttpPost("login")]
-        public async Task<IActionResult> SignIn([FromBody] UserAuthenticationDto request)
+        public async Task<IActionResult> Login([FromBody] UserAuthenticationDto request)
         {
             var result = await _userServices.Login(request);
             return Ok(result);
         }
         [HttpPost("register")]
-        public async Task<IActionResult> SignUp([FromBody] UserRegisterDto request)
+        public async Task<IActionResult> Register([FromBody] UserRegisterDto request)
         {
             var result = await _userServices.Register(request);
             return Ok(result); 
         }
-        [HttpPost("")]
+        [HttpPost("logout")]
+        [MustHaveRole("Role:USER")]
+        public async Task<IActionResult> Logout()
+        {
+            var result = await _userServices.Logout();
+            return Ok(result);
+        }
+
+        [HttpPost("refresh-token")]
+        [MustHaveRole("Role:USER")]
+        public async Task<IActionResult> RefreshToken()
+        {
+            var result = await _userServices.RefreshToken();
+            return Ok(result);
+        }
     }
 }

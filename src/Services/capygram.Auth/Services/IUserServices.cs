@@ -7,5 +7,7 @@ namespace capygram.Auth.Services
     {
         Task<Result<UserAuthenticationResponse>> Login(UserAuthenticationDto request);
         Task<Result<UserAuthenticationResponse>> Register(UserRegisterDto request);
+        Task<Result<string>> Logout();
+        Task<Result<string>> RefreshToken();
     }
 }

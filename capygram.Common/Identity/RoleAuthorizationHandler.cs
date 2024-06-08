@@ -20,7 +20,7 @@ namespace capygram.Common.Identity
             }
            
             var userRole = context.User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Role).Value;
-            if (userRole.Equals(requirement.Role) /*|| userRole.Equals("Role:ADMIN")*/)
+            if (userRole.Equals(requirement.Role) || userRole.Equals("Role:ADMIN"))
             {
                 context.Succeed(requirement);
             }

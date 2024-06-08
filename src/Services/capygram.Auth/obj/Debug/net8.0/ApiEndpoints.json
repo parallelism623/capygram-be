@@ -1,7 +1,43 @@
 [
   {
     "ContainingType": "capygram.Auth.Controllers.UsersController",
-    "Method": "SignUp",
+    "Method": "Login",
+    "RelativePath": "api/Users/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "capygram.Common.DTOs.User.UserAuthenticationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "capygram.Auth.Controllers.UsersController",
+    "Method": "Logout",
+    "RelativePath": "api/Users/logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "capygram.Auth.Controllers.UsersController",
+    "Method": "RefreshToken",
+    "RelativePath": "api/Users/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "capygram.Auth.Controllers.UsersController",
+    "Method": "Register",
     "RelativePath": "api/Users/register",
     "HttpMethod": "POST",
     "IsController": true,
@@ -10,22 +46,6 @@
       {
         "Name": "request",
         "Type": "capygram.Common.DTOs.User.UserRegisterDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "capygram.Auth.Controllers.UsersController",
-    "Method": "SignIn",
-    "RelativePath": "api/Users/signin",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "capygram.Common.DTOs.User.UserAuthenticationDto",
         "IsRequired": true
       }
     ],

@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("capygram.Auth")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35270317c630aab0f5ca445874e21de6ee213ae3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3f021cdaca8432b283a4e002d955a5d7b309f328")]
 [assembly: System.Reflection.AssemblyProductAttribute("capygram.Auth")]
 [assembly: System.Reflection.AssemblyTitleAttribute("capygram.Auth")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

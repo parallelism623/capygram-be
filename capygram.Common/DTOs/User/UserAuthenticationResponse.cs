@@ -8,7 +8,7 @@ namespace capygram.Common.DTOs.User
 {
     public class UserAuthenticationResponse
     {
-        public UserAuthenticationRespone(Guid id, string displayName, string avatarUrl, string fullName)
+        public UserAuthenticationResponse(Guid id, string displayName, string avatarUrl, string fullName)
         {
             Id = id;
             DisplayName = displayName;

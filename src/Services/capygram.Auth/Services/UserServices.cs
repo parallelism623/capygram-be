@@ -44,11 +44,26 @@ namespace capygram.Auth.Services
             var accessToken = await _jwtServices.GenerateAccessToken(claims);
             var refreshToken = await _jwtServices.GenerateRefreshToken();
             await _jwtServices.SetTokenInsideCookie(accessToken, refreshToken, _httpContextAccessor.HttpContext);
-            await _userRepository.UpdateUserAsync(result.Id, result);
+           
             var newResult = new UserAuthenticationResponse(result.Id, result.Profile.DisplayName, result.Profile.AvatarUrl, result.Profile.FullName);
             return Result<UserAuthenticationResponse>.CreateResult(true, new ResultDetail("200", "Signin successfully."), newResult);
         }
-
+        public async Task<Result<string>> Logout()
+        {
+            await _jwtServices.RemoveTokenInsideCookie(_httpContextAccessor.HttpContext);
+            return Result<string>.CreateResult(true, new ResultDetail("200", "Success"), "Logout successful");
+        }
+        public async Task<Result<string>> RefreshToken()
+        {
+            _httpContextAccessor.HttpContext.Request.Cookies.TryGetValue("accessToken", out var accessToken);
+            _httpContextAccessor.HttpContext.Request.Cookies.TryGetValue("refreshToken", out var refeshToken);
+            if (accessToken is null || refeshToken is null)
+            {
+                
+            }
+            await _jwtServices.SetTokenInsideCookie(accessToken, refeshToken, _httpContextAccessor.HttpContext, false);
+            return Result<string>.CreateResult(true, new ResultDetail("200", "Success"), "Refresh Token successful");
+        }
         public async Task<Result<UserAuthenticationResponse>> Register(UserRegisterDto request)
         {
             var newUser = new User();
@@ -64,6 +79,11 @@ namespace capygram.Auth.Services
             newUser.Roles.Add(new Role { Name = "USER"});
             newUser.Profile.FullName = request.FullName;
             newUser.Profile.Birthday = request.Birthday;
+
+            // raise event + send email
+
+            var newResult = new UserAuthenticationResponse(Guid.Empty, newUser.Profile.DisplayName, newUser.Profile.AvatarUrl, newUser.Profile.FullName);
+            return Result<UserAuthenticationResponse>.CreateResult(true, new ResultDetail("200", "Register successfully."), newResult);
         }
         private List<Claim> GetClaims(User user)
         {
