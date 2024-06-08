@@ -8,7 +8,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 namespace capygram.Common.Shared
 {
     public class Result<T>
-        where T : class
+   
     {
         protected internal Result(bool Success, ResultDetail Detail, T? Value)
         {

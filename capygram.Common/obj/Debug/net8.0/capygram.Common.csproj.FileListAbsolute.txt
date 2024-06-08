@@ -10,3 +10,16 @@ C:\Users\Administrator\source\repos\capygram\capygram.Common\obj\Debug\net8.0\ca
 C:\Users\Administrator\source\repos\capygram\capygram.Common\obj\Debug\net8.0\refint\capygram.Common.dll
 C:\Users\Administrator\source\repos\capygram\capygram.Common\obj\Debug\net8.0\capygram.Common.pdb
 C:\Users\Administrator\source\repos\capygram\capygram.Common\obj\Debug\net8.0\ref\capygram.Common.dll
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\bin\Debug\net8.0\capygram.Common.deps.json
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\bin\Debug\net8.0\capygram.Common.dll
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\bin\Debug\net8.0\capygram.Common.pdb
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\obj\Debug\net8.0\capygram.Common.csproj.AssemblyReference.cache
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\obj\Debug\net8.0\capygram.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\obj\Debug\net8.0\capygram.Common.AssemblyInfoInputs.cache
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\obj\Debug\net8.0\capygram.Common.AssemblyInfo.cs
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\obj\Debug\net8.0\capygram.Common.csproj.CoreCompileInputs.cache
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\obj\Debug\net8.0\capygram.Common.sourcelink.json
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\obj\Debug\net8.0\capygram.Common.dll
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\obj\Debug\net8.0\refint\capygram.Common.dll
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\obj\Debug\net8.0\capygram.Common.pdb
+C:\Users\hieud\Code\C#\capygram-be\capygram.Common\obj\Debug\net8.0\ref\capygram.Common.dll

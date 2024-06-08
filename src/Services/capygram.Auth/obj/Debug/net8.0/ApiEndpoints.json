@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "capygram.Auth.Controllers.UsersController",
+    "Method": "SignUp",
+    "RelativePath": "api/Users/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "capygram.Common.DTOs.User.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "capygram.Auth.Controllers.UsersController",
+    "Method": "SignIn",
+    "RelativePath": "api/Users/signin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "capygram.Common.DTOs.User.UserAuthenticationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

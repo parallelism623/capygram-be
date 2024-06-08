@@ -1,6 +1,7 @@
 ﻿using capygram.Auth.Domain.Repositories;
 using capygram.Auth.Services;
 using capygram.Common.DTOs.User;
+using capygram.Common.Identity;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
@@ -17,11 +18,18 @@ namespace capygram.Auth.Controllers
         {
             _userServices = userServices;
         }
-        [HttpPost("signin")]
+        [HttpPost("login")]
         public async Task<IActionResult> SignIn([FromBody] UserAuthenticationDto request)
         {
             var result = await _userServices.Login(request);
             return Ok(result);
         }
+        [HttpPost("register")]
+        public async Task<IActionResult> SignUp([FromBody] UserRegisterDto request)
+        {
+            var result = await _userServices.Register(request);
+            return Ok(result); 
+        }
+        [HttpPost("")]
     }
 }

@@ -8,7 +8,7 @@ namespace capygram.Auth.Domain.Data
     public class UserContext : IUserContext
     {
         public UserContext(IOptionsMonitor<UserDBSetting> optionsMonitor) 
-        {
+            {
             var userDBSetting = optionsMonitor.CurrentValue;
             var mongoClient = new MongoClient(userDBSetting.ConnectionString);
             var mongoDatabase = mongoClient.GetDatabase(userDBSetting.DatabaseName);

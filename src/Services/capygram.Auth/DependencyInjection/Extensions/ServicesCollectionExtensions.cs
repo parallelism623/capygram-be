@@ -10,6 +10,7 @@ using capygram.Auth.Domain.Repositories;
 using capygram.Auth.Repositories;
 using capygram.Auth.Domain.Data;
 using capygram.Auth.Domain.Services;
+using capygram.Common.Shared;
 namespace capygram.Auth.DependencyInjection.Extensions
 {
     public static class ServicesCollectionExtensions
@@ -53,6 +54,7 @@ namespace capygram.Auth.DependencyInjection.Extensions
                 };
                 opt.Events = new JwtBearerEvents
                 {
+                    
                     OnMessageReceived = context =>
                     {
                         var accessToken = context.Request.Query["access_token"];
@@ -69,9 +71,10 @@ namespace capygram.Auth.DependencyInjection.Extensions
                     OnForbidden = context =>
                     {
                         // Custom behavior when access is forbidden
-                        context.Response.StatusCode = 403;
+                        context.Response.StatusCode = 200;
                         context.Response.ContentType = "application/json";
-                        var result = Newtonsoft.Json.JsonConvert.SerializeObject(new { error = "You are not authorized to access this resource" });
+                        var result = Newtonsoft.Json.JsonConvert
+                            .SerializeObject(Result<string>.CreateResult(false, new ResultDetail("403", "Forbidden"), "You are forbidden"));
                         return context.Response.WriteAsync(result);
                     },
                     OnChallenge = context =>
@@ -80,9 +83,11 @@ namespace capygram.Auth.DependencyInjection.Extensions
                         context.HandleResponse(); // Suppress the default behavior
                         context.Response.StatusCode = 401;
                         context.Response.ContentType = "application/json";
-                        var result = Newtonsoft.Json.JsonConvert.SerializeObject(new { error = "You are not authorized" });
+                        var result = Newtonsoft.Json.JsonConvert
+                            .SerializeObject(Result<string>.CreateResult(false, new ResultDetail("401", "Unauthorized"), "You are not authorized"));
                         return context.Response.WriteAsync(result);
-                    }
+                    },
+                   
                 };
             });
 

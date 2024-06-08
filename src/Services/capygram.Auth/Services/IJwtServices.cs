@@ -7,5 +7,7 @@ namespace capygram.Auth.Services
         Task<string> GenerateAccessToken(IEnumerable<Claim> claims);
         Task<string> GenerateRefreshToken();
         Task<ClaimsPrincipal> GetPrincipalFromExpiredToken(string token);
+        Task SetTokenInsideCookie(string accessToken, string refreshToken, HttpContext context);
+        Task RemoveTokenInsideCookie();
     }
 }

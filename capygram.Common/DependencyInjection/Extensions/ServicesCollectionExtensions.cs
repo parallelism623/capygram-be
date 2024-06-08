@@ -1,4 +1,6 @@
-﻿using FluentValidation;
+﻿using capygram.Common.Identity;
+using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -14,6 +16,12 @@ namespace capygram.Common.DependencyInjection.Extensions
         public static IServiceCollection ConfigurationFluentValidation(this IServiceCollection services)
         {
             services.AddValidatorsFromAssembly(AssemblyReference.Assembly);
+            return services;
+        }
+        public static IServiceCollection AddIdentityHandler(this IServiceCollection services)
+        {   
+            services.AddSingleton<IAuthorizationPolicyProvider, RolePolicyProvider>();
+            services.AddTransient<IAuthorizationHandler, RoleAuthorizationHandler>();
             return services;
         }
     }

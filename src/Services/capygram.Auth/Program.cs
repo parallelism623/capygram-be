@@ -1,7 +1,7 @@
 using capygram.Auth.DependencyInjection.Extensions;
 using capygram.Auth.Domain.Data;
 using capygram.Auth.Domain.Services;
-
+using capygram.Common.DependencyInjection.Extensions;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -13,7 +13,8 @@ builder.Services.AddSwaggerGen();
 builder.Services
     .AddConfigOption(builder.Configuration)
     .AddJwtAuthentication(builder.Configuration)
-    .AddServices();
+    .AddServices()
+    .AddIdentityHandler();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -29,7 +30,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-using (var scope = app.Services.CreateScope())
+using (     var scope = app.Services.CreateScope())
 {
     var user = scope.ServiceProvider.GetService<IUserContext>().Users;
     var encypter = scope.ServiceProvider.GetService<IEncrypter>();

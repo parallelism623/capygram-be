@@ -14,6 +14,12 @@ namespace capygram.Auth.Repositories
         {
             _userContext = userContext;
         }
+
+        public async Task AddUserAsync(User user)
+        {
+            await _userContext.Users.InsertOneAsync(user);
+        }
+
         public async Task<User?> GetUserByUsernameAsync(string username)
         {
             var result = await _userContext.Users.Find(x => x.UserName == username).FirstOrDefaultAsync();
