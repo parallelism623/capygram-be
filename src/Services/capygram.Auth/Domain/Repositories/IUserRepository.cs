@@ -7,5 +7,6 @@ namespace capygram.Auth.Domain.Repositories
         Task<User> GetUserByUsernameAsync(string username);
         Task UpdateUserAsync(Guid UserId, User newUser);
         Task AddUserAsync(User user);
+        Task<User> GetUserByIdAsync(Guid Id);
     }
 }

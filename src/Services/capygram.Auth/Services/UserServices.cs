@@ -4,6 +4,7 @@ using capygram.Auth.Domain.Repositories;
 using capygram.Auth.Domain.Services;
 using capygram.Common.DTOs.User;
 using capygram.Common.Shared;
+using Microsoft.AspNetCore.Http.HttpResults;
 using System.Security.Claims;
 
 namespace capygram.Auth.Services
@@ -43,16 +44,39 @@ namespace capygram.Auth.Services
             var claims = GetClaims(result);
             var accessToken = await _jwtServices.GenerateAccessToken(claims);
             var refreshToken = await _jwtServices.GenerateRefreshToken();
-            await _jwtServices.SetTokenInsideCookie(accessToken, refreshToken, _httpContextAccessor.HttpContext);
-           
+            var expirationRefreshToken = DateTime.UtcNow.AddDays(2405);
+            result.AccessToken = accessToken;
+            result.RefreshToken = refreshToken;
+            result.ExpiratimeRefreshToken = expirationRefreshToken;
+            await _userRepository.UpdateUserAsync(result.Id, result);
             var newResult = new UserAuthenticationResponse(result.Id, result.Profile.DisplayName, result.Profile.AvatarUrl, result.Profile.FullName);
+            newResult.AccessToken = accessToken;
+            newResult.RefreshToken = refreshToken;
             return Result<UserAuthenticationResponse>.CreateResult(true, new ResultDetail("200", "Signin successfully."), newResult);
         }
-        public async Task<Result<string>> Logout()
+        public async Task<Result<string>> Logout(Guid Id)
         {
-            await _jwtServices.RemoveTokenInsideCookie(_httpContextAccessor.HttpContext);
-            return Result<string>.CreateResult(true, new ResultDetail("200", "Success"), "Logout successful");
+            var currentUser = await _userRepository.GetUserByIdAsync(Id);
+            if (currentUser != null)
+            {
+                currentUser.RefreshToken = null;
+                currentUser.AccessToken = null;
+                currentUser.ExpiratimeRefreshToken = DateTime.MinValue;
+                await _userRepository.UpdateUserAsync(Id, currentUser);
+                return Result<string>.CreateResult(true, new ResultDetail("200", "Success"), "Logout successful");
+            }
+            else
+            {
+                return Result<string>.CreateResult(true, new ResultDetail("200", "Success"), "Logout successful");
+            }
+            
         }
+
+        public Task<Result<string>> Logout()
+        {
+            throw new NotImplementedException();
+        }
+
         public async Task<Result<string>> RefreshToken()
         {
             _httpContextAccessor.HttpContext.Request.Cookies.TryGetValue("accessToken", out var accessToken);
@@ -61,7 +85,7 @@ namespace capygram.Auth.Services
             {
                 
             }
-            await _jwtServices.SetTokenInsideCookie(accessToken, refeshToken, _httpContextAccessor.HttpContext, false);
+
             return Result<string>.CreateResult(true, new ResultDetail("200", "Success"), "Refresh Token successful");
         }
         public async Task<Result<UserAuthenticationResponse>> Register(UserRegisterDto request)

@@ -20,6 +20,11 @@ namespace capygram.Auth.Repositories
             await _userContext.Users.InsertOneAsync(user);
         }
 
+        public async Task<User> GetUserByIdAsync(Guid Id)
+        {
+            return await _userContext.Users.Find(x => x.Id == Id).FirstOrDefaultAsync();
+        }
+
         public async Task<User?> GetUserByUsernameAsync(string username)
         {
             var result = await _userContext.Users.Find(x => x.UserName == username).FirstOrDefaultAsync();

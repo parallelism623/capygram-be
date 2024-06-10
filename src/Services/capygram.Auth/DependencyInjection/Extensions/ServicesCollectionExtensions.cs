@@ -11,6 +11,8 @@ using capygram.Auth.Repositories;
 using capygram.Auth.Domain.Data;
 using capygram.Auth.Domain.Services;
 using capygram.Common.Shared;
+using MassTransit;
+
 namespace capygram.Auth.DependencyInjection.Extensions
 {
     public static class ServicesCollectionExtensions
@@ -89,6 +91,26 @@ namespace capygram.Auth.DependencyInjection.Extensions
                     },
                    
                 };
+            });
+
+            return services;
+        }
+        public static IServiceCollection AddMasstransitConfiguration(this IServiceCollection services, IConfiguration configuration)
+        {
+            var masstransitOptions = new MasstransitOptions();
+            configuration.GetRequiredSection("MasstransitOptions").Bind(masstransitOptions);
+            services.AddMassTransit(cfg =>
+            {
+                cfg.UsingRabbitMq((context, bus) =>
+                {
+                    bus.Host(masstransitOptions.Host, masstransitOptions.VHost, h =>
+                    {
+                        h.Username(masstransitOptions.UserName);
+                        h.Password(masstransitOptions.Password);
+                    }); 
+                    bus.Message<>
+                });
+
             });
 
             return services;

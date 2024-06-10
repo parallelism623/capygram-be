@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Auth", "src\Services\capygram.Auth\capygram.Auth.csproj", "{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capygram.Common", "capygram.Common\capygram.Common.csproj", "{B09095F4-151E-4B64-BF95-739434BC0C99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Common", "capygram.Common\capygram.Common.csproj", "{B09095F4-151E-4B64-BF95-739434BC0C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capygram.Ocelot", "capygram.Ocelot\capygram.Ocelot.csproj", "{FA828B33-4C29-4D74-87C8-7D441E38163B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{B09095F4-151E-4B64-BF95-739434BC0C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B09095F4-151E-4B64-BF95-739434BC0C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B09095F4-151E-4B64-BF95-739434BC0C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA828B33-4C29-4D74-87C8-7D441E38163B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA828B33-4C29-4D74-87C8-7D441E38163B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA828B33-4C29-4D74-87C8-7D441E38163B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA828B33-4C29-4D74-87C8-7D441E38163B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 		{3F09658E-EE8D-4508-ACE4-BAFC1BD8FA81} = {8B316546-FC5D-45A9-93F5-E3468112E89A}
 		{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B} = {3F09658E-EE8D-4508-ACE4-BAFC1BD8FA81}
 		{B09095F4-151E-4B64-BF95-739434BC0C99} = {3F09658E-EE8D-4508-ACE4-BAFC1BD8FA81}
+		{FA828B33-4C29-4D74-87C8-7D441E38163B} = {2D22CF5C-CB55-435C-A1EA-738E8C55A72B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {512AF22C-BFA1-44D3-8053-611AD9396919}
