@@ -22,11 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\capygram.Common\capygram.Common.csproj" />
+    <Folder Include="Mapper\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapper\" />
+    <ProjectReference Include="..\capygram.Common\capygram.Common.csproj" />
   </ItemGroup>
 
 </Project>

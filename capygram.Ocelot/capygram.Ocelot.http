@@ -1,6 +1,0 @@
-@capygram.Ocelot_HostAddress = http://localhost:5223
-
-GET {{capygram.Ocelot_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###

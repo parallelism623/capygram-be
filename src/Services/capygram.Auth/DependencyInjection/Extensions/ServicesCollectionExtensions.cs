@@ -12,6 +12,7 @@ using capygram.Auth.Domain.Data;
 using capygram.Auth.Domain.Services;
 using capygram.Common.Shared;
 using MassTransit;
+using capygram.Common.Abstraction;
 
 namespace capygram.Auth.DependencyInjection.Extensions
 {
@@ -108,7 +109,7 @@ namespace capygram.Auth.DependencyInjection.Extensions
                         h.Username(masstransitOptions.UserName);
                         h.Password(masstransitOptions.Password);
                     }); 
-                    bus.Message<>
+                    bus.Message<INotification>
                 });
 
             });
