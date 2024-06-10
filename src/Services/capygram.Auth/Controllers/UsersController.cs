@@ -32,17 +32,23 @@ namespace capygram.Auth.Controllers
         }
         [HttpPost("logout")]
         [MustHaveRole("Role:USER")]
-        public async Task<IActionResult> Logout()
+        public async Task<IActionResult> Logout(Guid Id)
         {
-            var result = await _userServices.Logout();
+            var result = await _userServices.Logout(Id);
             return Ok(result);
         }
 
         [HttpPost("refresh-token")]
         [MustHaveRole("Role:USER")]
-        public async Task<IActionResult> RefreshToken()
+        public async Task<IActionResult> RefreshToken(UserRefreshTokenDto request)
         {
-            var result = await _userServices.RefreshToken();
+            var result = await _userServices.RefreshToken(request);
+            return Ok(result);
+        }
+        [HttpPost("active-account")]
+        public async Task<IActionResult> ActiveAccount(UserRegisterDto request)
+        {
+            var result = await _userServices.ActiveAccount(request);
             return Ok(result);
         }
     }

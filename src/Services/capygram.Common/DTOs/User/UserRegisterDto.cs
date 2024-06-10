@@ -15,6 +15,7 @@ namespace capygram.Common.DTOs.User
         public string FullName { get; set; } 
         public DateTime Birthday { get; set; }
 
+        public string OTP { get; set; }
     }
     public class UserRegisterDtoValidation : AbstractValidator<UserRegisterDto>
     {

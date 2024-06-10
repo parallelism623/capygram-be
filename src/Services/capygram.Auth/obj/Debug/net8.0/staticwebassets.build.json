@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "5DJBniWeD2wcSjhI1NvKlGE+CMte/hF5DmmzTCy/a38=",
+  "Hash": "dXw8n8Fm3P5BeXMbs5+aYiC5bb38m9IJjJfRHuDDVqc=",
   "Source": "capygram.Auth",
   "BasePath": "_content/capygram.Auth",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\capygram.Common.csproj",
+      "Version": 2,
+      "Source": "capygram.Common",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

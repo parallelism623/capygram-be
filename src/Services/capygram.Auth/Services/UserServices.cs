@@ -2,10 +2,14 @@
 using capygram.Auth.Domain.Model;
 using capygram.Auth.Domain.Repositories;
 using capygram.Auth.Domain.Services;
+
 using capygram.Common.DTOs.User;
+using capygram.Common.Exceptions;
 using capygram.Common.Shared;
+using MassTransit;
 using Microsoft.AspNetCore.Http.HttpResults;
 using System.Security.Claims;
+using capygram.Auth.MessageBus.Events;
 
 namespace capygram.Auth.Services
 {
@@ -15,31 +19,65 @@ namespace capygram.Auth.Services
         private readonly IJwtServices _jwtServices;
         private readonly IEncrypter _encrypter;
         private readonly IHttpContextAccessor _httpContextAccessor;
+        
+        private readonly IPublishEndpoint _publishEndpoint;
         public UserServices(IEncrypter encrypter, 
             IUserRepository userRepository, 
             IJwtServices jwtServices,
-            IHttpContextAccessor httpContextAccessor)
+            IHttpContextAccessor httpContextAccessor,
+           
+            IPublishEndpoint publishEndpoint)
         {
+            _publishEndpoint = publishEndpoint;
             _httpContextAccessor = httpContextAccessor;
             _jwtServices = jwtServices; 
             _userRepository = userRepository; 
             _encrypter = encrypter;
+            
         }
+
+        public async Task<Result<UserAuthenticationResponse>> ActiveAccount(UserRegisterDto request)
+        {
+            if (request.OTP is null)
+            {
+                throw new BadRequestException("OTP is empty");
+            }
+            var userOTP = await _userRepository.GetUserOTPByEmailAsync(request.Email);
+            if (userOTP is null || userOTP.ExpiredTimeOTP > DateTime.UtcNow.AddDays(1) || userOTP.OTP != request.OTP)
+            {
+                throw new BadRequestException("OTP is invalid");
+            }
+            
+            var newUser = new User();
+            newUser.UserName = request.UserName;
+            newUser.Email = request.Email;
+            newUser.Salt = _encrypter.GetSalt();
+            newUser.Password = _encrypter.GetHash(request.Password, newUser.Salt);
+            newUser.Profile.Birthday = request.Birthday;
+            newUser.Profile.FullName = request.FullName;
+            newUser.AccessToken = await _jwtServices.GenerateAccessToken(GetClaims(newUser));
+            newUser.RefreshToken = await _jwtServices.GenerateRefreshToken();
+            newUser.ExpiratimeRefreshToken = DateTime.UtcNow.AddDays(2405);
+            newUser.Roles = new List<Role> { new Role { Name = "USER"} };
+            await _userRepository.AddUserAsync(newUser);
+            var result = new UserAuthenticationResponse(newUser.Id, newUser.Profile.FullName, "", newUser.Profile.FullName);
+            result.AccessToken = newUser.AccessToken;
+            result.RefreshToken = newUser.RefreshToken;
+            await _userRepository.RemoveUserOTPAsync(userOTP);
+            return Result<UserAuthenticationResponse>.CreateResult(true, new ResultDetail("200", "Success"), result);
+        }
+
         public async Task<Result<UserAuthenticationResponse>> Login(UserAuthenticationDto request)
         {
             var result = await _userRepository.GetUserByUsernameAsync(request.UserName);
             if (result == null)
             {
-                return Result<UserAuthenticationResponse>.CreateResult(false, new ResultDetail("404", "Not found user by username"), null);
-            }
-            if (result.IsActive == false)
-            {
-                return Result<UserAuthenticationResponse>.CreateResult(false, new ResultDetail("400", "User is not actived"), null);
+                throw new NotFoundException($"User not found by user name: {request.UserName}");
             }
             var checkPassword = _encrypter.GetHash(request.Password, result.Salt);
             if (checkPassword != result.Password)
             {
-                return Result<UserAuthenticationResponse>.CreateResult(false, new ResultDetail("400", "Password is invalid"), null);
+                throw new BadRequestException($"Password is invalid");
             }
             var claims = GetClaims(result);
             var accessToken = await _jwtServices.GenerateAccessToken(claims);
@@ -72,42 +110,69 @@ namespace capygram.Auth.Services
             
         }
 
-        public Task<Result<string>> Logout()
-        {
-            throw new NotImplementedException();
-        }
 
-        public async Task<Result<string>> RefreshToken()
+
+        public async Task<Result<UserAuthenticationResponse>> RefreshToken(UserRefreshTokenDto request)
         {
-            _httpContextAccessor.HttpContext.Request.Cookies.TryGetValue("accessToken", out var accessToken);
-            _httpContextAccessor.HttpContext.Request.Cookies.TryGetValue("refreshToken", out var refeshToken);
-            if (accessToken is null || refeshToken is null)
+            var user = await _userRepository.GetUserByIdAsync(request.Id);
+
+            if (user.ExpiratimeRefreshToken > DateTime.UtcNow ||
+                user.RefreshToken != request.RefreshToken ||
+                user.AccessToken != request.AccessToken)
             {
-                
+                throw new BadRequestException("Token is invalid");
             }
-
-            return Result<string>.CreateResult(true, new ResultDetail("200", "Success"), "Refresh Token successful");
+            user.RefreshToken = await _jwtServices.GenerateRefreshToken();
+            user.AccessToken = await _jwtServices.GenerateAccessToken(GetClaims(user));
+            var resultReturn = new UserAuthenticationResponse();
+            resultReturn.AccessToken = user.AccessToken;
+            resultReturn.RefreshToken = user.RefreshToken;
+            return Result<UserAuthenticationResponse>.CreateResult(true, new ResultDetail("200", "Success"), resultReturn);
         }
-        public async Task<Result<UserAuthenticationResponse>> Register(UserRegisterDto request)
+
+        public async Task<Result<string>> Register(UserRegisterDto request)
         {
             var newUser = new User();
             var checkUserByUserName = await _userRepository.GetUserByUsernameAsync(request.UserName);
             if (checkUserByUserName is not null)
             {
-                return Result<UserAuthenticationResponse>.CreateResult(false, new ResultDetail("400", "Username is already exists"), null);
+                throw new BadRequestException("Username is already exists");
             }
-            newUser.UserName = request.UserName;
-            newUser.Email = request.Email;
-            newUser.Salt = _encrypter.GetSalt();
-            newUser.Password = _encrypter.GetHash(request.Password, newUser.Salt);
-            newUser.Roles.Add(new Role { Name = "USER"});
-            newUser.Profile.FullName = request.FullName;
-            newUser.Profile.Birthday = request.Birthday;
+            var otp = new Random().Next(100000, 999999).ToString();
 
             // raise event + send email
+            var userOTP = await _userRepository.GetUserOTPByEmailAsync(request.Email);
+            if (userOTP != null)
+            {
+                userOTP.ExpiredTimeOTP = DateTime.Now.AddDays(1);
+                userOTP.OTP = otp;
+                await _userRepository.UpdateUserOTPAsync(userOTP.Id, userOTP);
+            }
+            else
+            {
+                var newUserOTP = new UserOTP();
+                newUserOTP.Email = request.Email;
+                newUserOTP.OTP = otp;
+                newUserOTP.ExpiredTimeOTP = DateTime.Now.AddDays(1);
+                await _userRepository.AddUserOTPAsync(newUserOTP);
 
-            var newResult = new UserAuthenticationResponse(Guid.Empty, newUser.Profile.DisplayName, newUser.Profile.AvatarUrl, newUser.Profile.FullName);
-            return Result<UserAuthenticationResponse>.CreateResult(true, new ResultDetail("200", "Register successfully."), newResult);
+            }
+            var emailEvent = new EmailNotification()
+            {
+                
+                Id = Guid.NewGuid(),
+                Description = "Email description",
+                Name = "email notification",
+                TimeStamp = DateTime.Now,
+                Type = "email",
+                content = otp,
+                mailTo = request.Email,
+                nameTo = request.FullName,
+            };
+            using var source = new CancellationTokenSource(TimeSpan.FromSeconds(30));
+            await _publishEndpoint.Publish(emailEvent, source.Token);
+
+            return Result<string>.CreateResult(true, new ResultDetail("200", "Success"), "Send OTP success");
         }
         private List<Claim> GetClaims(User user)
         {

@@ -1,201 +1,306 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Downloads\\capygram-be\\",
+  "WorkspaceRootPath": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.common\\capygram.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\capygram.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\services\\sendmailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\services\\sendmailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\capygram.auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\capygram.auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\services\\isendmailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\services\\isendmailservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\dependencyinjection\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\dependencyinjection\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\messagebus\\events\\emailnotificationconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\messagebus\\events\\emailnotificationconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\domain\\services\\encrypter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\services\\encrypter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\wwwroot\\mailtemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\wwwroot\\mailtemplate.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.common\\dependencyinjection\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\dependencyinjection\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.common\\dtos\\user\\userauthenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\dtos\\user\\userauthenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.common\\abstraction\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\abstraction\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.common\\dtos\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\dtos\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.common\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\capygram.Commonn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\capygram.Commonn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\dependencyinjection\\options\\masstransitoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\dependencyinjection\\options\\masstransitoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\dependencyinjection\\options\\userdbsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\dependencyinjection\\options\\userdbsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\services\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\services\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\services\\ijwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\services\\ijwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\domain\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\domain\\model\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\model\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\usecases\\events\\emailnotificationconsumerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\usecases\\events\\emailnotificationconsumerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\abstraction\\inotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\abstraction\\inotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\messagebus\\events\\emailnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\messagebus\\events\\emailnotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\dependencyinjection\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\dependencyinjection\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\domain\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\domain\\data\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\hieud\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\dependencyinjection\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\dependencyinjection\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\dependencyinjection\\extensions\\nameformatterextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\dependencyinjection\\extensions\\nameformatterextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\dependencyinjection\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\dependencyinjection\\extensions\\servicescollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\capygram.auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\capygram.auth.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\capygram.notification.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\capygram.notification.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\dependencyinjection\\options\\masstransitoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\dependencyinjection\\options\\masstransitoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\dependencyinjection\\options\\sendmailoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\dependencyinjection\\options\\sendmailoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\dtos\\user\\sendmailhtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\dtos\\user\\sendmailhtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\abstraction\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\abstraction\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.notification\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A8681125-0556-4530-B916-8924F573EB8E}|src\\Services\\capygram.Notification\\capygram.Notification.csproj|solutionrelative:src\\services\\capygram.notification\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\dependencyinjection\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\dependencyinjection\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\services\\iuserservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\services\\ijwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\services\\ijwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\services\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\services\\jwtservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\capygram.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\capygram.common.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\abstraction\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\abstraction\\imessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\dependencyinjection\\options\\masstransitoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\dependencyinjection\\options\\masstransitoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\domain\\services\\iencrypter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\services\\iencrypter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\domain\\services\\encrypter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\services\\encrypter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\dependencyinjection\\extensions\\nameformatterextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\dependencyinjection\\extensions\\nameformatterextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\domain\\model\\userotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\model\\userotp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\domain\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\data\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\dependencyinjection\\options\\userdbsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\dependencyinjection\\options\\userdbsetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\domain\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\model\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\middlewares\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\dtos\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\dtos\\user\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\domain\\model\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\model\\profile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\exceptions\\unauthorizedexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\exceptions\\unauthorizedexeption.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\exceptions\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\exceptions\\forbiddenexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\dtos\\user\\userrefreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\dtos\\user\\userrefreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\dtos\\user\\userauthenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\dtos\\user\\userauthenticationresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\dtos\\user\\userauthenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\dtos\\user\\userauthenticationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\shared\\mailtemplatehtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\shared\\mailtemplatehtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\domain\\data\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\data\\seeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\dependencyinjection\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\dependencyinjection\\options\\jwtoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.auth\\domain\\data\\iusercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\data\\iusercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\exceptions\\badrequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|c:\\users\\hieud\\code\\c#\\capygram-be\\src\\services\\capygram.common\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13735BAE-B62A-465E-8EAA-9EA21E579673}|src\\Services\\capygram.Common\\capygram.Common.csproj|solutionrelative:src\\services\\capygram.common\\assemblyreference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\capygram.Commonn.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\domain\\data\\iusercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\data\\iusercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\DomainEvents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|c:\\users\\administrator\\downloads\\capygram-be\\src\\services\\capygram.auth\\domain\\services\\iencrypter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F0AD82A1-D200-4AA2-8F8D-F634E2348D3B}|src\\Services\\capygram.Auth\\capygram.Auth.csproj|solutionrelative:src\\services\\capygram.auth\\domain\\services\\iencrypter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\IMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\DomainEvents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\IntegrationEvents\\DomainEvents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\IMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\Abstraction\\IMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\INotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\Command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\INotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\Abstraction\\INotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\Command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\IntegrationEvents\\Command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\MustHaveRoleAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\DTOs\\User\\UserRegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleAuthorizationHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\MustHaveRoleAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\Identity\\MustHaveRoleAttribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleRequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleAuthorizationHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\Identity\\RoleAuthorizationHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RolePolicyProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleRequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\Identity\\RoleRequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\Result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RolePolicyProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\Identity\\RolePolicyProvider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Exception\\DomainException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\Result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\Shared\\Result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\ResultDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Exception\\DomainException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\Exception\\DomainException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\AssemblyReference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\ResultDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\Shared\\ResultDetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\AssemblyReference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\AssemblyReference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\MessageResult\\UserMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:capygram.Common\\MessageResult\\UserMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\MessageResult\\UserMessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -208,603 +313,956 @@
           "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserRegisterDto.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAkwBIAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T10:24:33.92Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1746412052:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserAuthenticationDto.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAFAAAA",
+              "DocumentIndex": 3,
+              "Title": "mailtemplate.html",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\wwwroot\\mailtemplate.html",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\wwwroot\\mailtemplate.html",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\wwwroot\\mailtemplate.html",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\wwwroot\\mailtemplate.html",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAowFcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-06-10T20:14:23.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MasstransitOptions.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\DependencyInjection\\Options\\MasstransitOptions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\DependencyInjection\\Options\\MasstransitOptions.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\DependencyInjection\\Options\\MasstransitOptions.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\DependencyInjection\\Options\\MasstransitOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T10:24:32.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T18:24:31.063Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ServicesCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAYwAkAAAAXAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\Program.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\Program.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T10:24:24.841Z",
+              "WhenOpened": "2024-06-10T18:50:49.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmailNotificationConsumerHandler.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\UseCases\\Events\\EmailNotificationConsumerHandler.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\UseCases\\Events\\EmailNotificationConsumerHandler.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\UseCases\\Events\\EmailNotificationConsumerHandler.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\UseCases\\Events\\EmailNotificationConsumerHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAgwBUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:19:37.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SendMailServices.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\Services\\SendMailServices.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\Services\\SendMailServices.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\Services\\SendMailServices.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\Services\\SendMailServices.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAowCQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:13:19.273Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IMessage.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\Abstraction\\IMessage.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Abstraction\\IMessage.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\Abstraction\\IMessage.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Common\\Abstraction\\IMessage.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T10:23:06.867Z",
-              "EditorCaption": ""
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\appsettings.json",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\appsettings.json",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T18:24:40.39Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "capygram.Auth.csproj",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\capygram.Auth.csproj",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\capygram.Auth.csproj",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\capygram.Auth.csproj",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\capygram.Auth.csproj",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-07T18:18:35.162Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T19:43:42.252Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "EmailNotificationConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\MessageBus\\Events\\EmailNotificationConsumer.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\MessageBus\\Events\\EmailNotificationConsumer.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\MessageBus\\Events\\EmailNotificationConsumer.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\MessageBus\\Events\\EmailNotificationConsumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:39:43.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ISendMailServices.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\Services\\ISendMailServices.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\Services\\ISendMailServices.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\Services\\ISendMailServices.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\Services\\ISendMailServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAYAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:12:35.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "INotification.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Abstraction\\INotification.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Abstraction\\INotification.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Abstraction\\INotification.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\Abstraction\\INotification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:40:03.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EmailNotification.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\MessageBus\\Events\\EmailNotification.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\MessageBus\\Events\\EmailNotification.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\MessageBus\\Events\\EmailNotification.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\MessageBus\\Events\\EmailNotification.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:05:01.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Services\\UserServices.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Services\\UserServices.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Services\\UserServices.cs",
+              "ViewState": "AQIAAH0AAAAAAAAAAAAnwIUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:40:42.813Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Program.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Program.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Program.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAYwCgAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:52:36.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ServicesCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAzwB8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T10:24:24.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAnwB8AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:08:49.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServicesCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
               "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
               "RelativeToolTip": "src\\Services\\capygram.Auth\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
-              "ViewState": "AQIAAFoAAAAAAAAAAAAYwG8AAAAuAAAA",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAgwGEAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:39:45.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T17:39:45.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Encrypter.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Services\\Encrypter.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Services\\Encrypter.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Services\\Encrypter.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Services\\Encrypter.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAwAwAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T20:06:49.336Z",
-              "EditorCaption": ""
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwB0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T19:44:01.168Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "capygram.Common",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\capygram.Common.csproj",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\capygram.Common.csproj",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\capygram.Common.csproj",
-              "RelativeToolTip": "src\\Services\\capygram.Common\\capygram.Common.csproj",
+              "DocumentIndex": 15,
+              "Title": "Container.targets",
+              "DocumentMoniker": "C:\\Users\\hieud\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
+              "ToolTip": "C:\\Users\\hieud\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.20.1\\build\\Container.targets",
+              "ViewState": "AQIAADUBAAAAAAAAAAAqwNYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-10T19:40:32.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SendMailOptions.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\DependencyInjection\\Options\\SendMailOptions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\DependencyInjection\\Options\\SendMailOptions.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\DependencyInjection\\Options\\SendMailOptions.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\DependencyInjection\\Options\\SendMailOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:14:22.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NameFormatterExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\DependencyInjection\\Extensions\\NameFormatterExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\DependencyInjection\\Extensions\\NameFormatterExtensions.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\DependencyInjection\\Extensions\\NameFormatterExtensions.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\DependencyInjection\\Extensions\\NameFormatterExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:27:15.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Dockerfile",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Dockerfile",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Dockerfile",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-07T20:30:52.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\DependencyInjection\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAQwAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:23:08.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "capygram.Auth.csproj",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\capygram.Auth.csproj",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\capygram.Auth.csproj",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\capygram.Auth.csproj",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\capygram.Auth.csproj",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-07T18:18:35.162Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "capygram.Notification.csproj",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\capygram.Notification.csproj",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\capygram.Notification.csproj",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\capygram.Notification.csproj",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\capygram.Notification.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-10T10:22:06.043Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T18:35:12.684Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AssemblyReference.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\AssemblyReference.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\AssemblyReference.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Common\\AssemblyReference.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Common\\AssemblyReference.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 24,
+              "Title": "SendMailHtml.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\SendMailHtml.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\DTOs\\User\\SendMailHtml.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\SendMailHtml.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\DTOs\\User\\SendMailHtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T10:24:29.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T15:56:50.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Consumer.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Abstraction\\Consumer.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Abstraction\\Consumer.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Abstraction\\Consumer.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\Abstraction\\Consumer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:42:17.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Notification\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Services\\capygram.Notification\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-10T18:24:41.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "JwtOptions.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\JwtOptions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\JwtOptions.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\JwtOptions.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\JwtOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:27:08.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\appsettings.Development.json",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\appsettings.Development.json",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T16:02:53.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IUserServices.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Services\\IUserServices.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Services\\IUserServices.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Services\\IUserServices.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Services\\IUserServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:40:36.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IJwtServices.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Services\\IJwtServices.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Services\\IJwtServices.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Services\\IJwtServices.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Services\\IJwtServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:16:39.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "JwtServices.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Services\\JwtServices.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Services\\JwtServices.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Services\\JwtServices.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Services\\JwtServices.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAkwAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T18:17:49.457Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 33,
               "Title": "IMessage.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Abstraction\\IMessage.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Abstraction\\IMessage.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Abstraction\\IMessage.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\Abstraction\\IMessage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T10:23:06.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAIAwwC0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T19:32:53.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "capygram.Common.csproj",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\capygram.Common.csproj",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\capygram.Common.csproj",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\capygram.Common.csproj",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\capygram.Common.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-10T10:22:06.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\appsettings.json",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\appsettings.json",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-07T16:02:52.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "NameFormatterExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Extensions\\NameFormatterExtensions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\DependencyInjection\\Extensions\\NameFormatterExtensions.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Extensions\\NameFormatterExtensions.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\DependencyInjection\\Extensions\\NameFormatterExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T18:13:24.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MasstransitOptions.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\MasstransitOptions.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\MasstransitOptions.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\MasstransitOptions.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\MasstransitOptions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T03:09:28.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:42:56.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Encrypter.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Services\\Encrypter.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Services\\Encrypter.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Services\\Encrypter.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Services\\Encrypter.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAwAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T20:06:49.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IEncrypter.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Services\\IEncrypter.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Services\\IEncrypter.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Services\\IEncrypter.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Services\\IEncrypter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T20:06:38.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\UserContext.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Data\\UserContext.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\UserContext.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Data\\UserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:08:27.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserOTP.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\UserOTP.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Model\\UserOTP.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\UserOTP.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Model\\UserOTP.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T15:16:12.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserDBSetting.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\UserDBSetting.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\UserDBSetting.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\UserDBSetting.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\UserDBSetting.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:36:36.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\Role.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Model\\Role.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\Role.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Model\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:18:13.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ExceptionHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\Middlewares\\ExceptionHandlingMiddleware.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAvwBsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:52:53.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\User.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Model\\User.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\User.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Model\\User.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwBQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:17:41.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwA8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T10:24:33.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Profile.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\Profile.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Model\\Profile.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\Profile.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Model\\Profile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T17:18:03.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UnAuthorizedExeption.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Exceptions\\UnAuthorizedExeption.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Exceptions\\UnAuthorizedExeption.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Exceptions\\UnAuthorizedExeption.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\Exceptions\\UnAuthorizedExeption.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T15:03:18.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ForbiddenException.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Exceptions\\ForbiddenException.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Exceptions\\ForbiddenException.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Exceptions\\ForbiddenException.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\Exceptions\\ForbiddenException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T15:02:52.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "UserRefreshTokenDto.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserRefreshTokenDto.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\DTOs\\User\\UserRefreshTokenDto.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserRefreshTokenDto.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\DTOs\\User\\UserRefreshTokenDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:33:56.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "UserAuthenticationResponse.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAoAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:34:18.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "UserAuthenticationDto.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T10:24:32.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "MailTemplateHTML.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Shared\\MailTemplateHTML.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Shared\\MailTemplateHTML.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Shared\\MailTemplateHTML.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\Shared\\MailTemplateHTML.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:08:12.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IUserContext.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\IUserContext.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Data\\IUserContext.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\IUserContext.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Data\\IUserContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:08:03.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Seeder.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\Seeder.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Data\\Seeder.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\Seeder.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Data\\Seeder.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAAB8AAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T21:11:40.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:52:12.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "BadRequestException.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Exceptions\\BadRequestException.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Exceptions\\BadRequestException.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Exceptions\\BadRequestException.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\Exceptions\\BadRequestException.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:48:56.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\Exceptions\\DomainException.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwBQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T14:46:52.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "AssemblyReference.cs",
+              "DocumentMoniker": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "src\\Services\\capygram.Common\\AssemblyReference.cs",
+              "ToolTip": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\AssemblyReference.cs",
+              "RelativeToolTip": "src\\Services\\capygram.Common\\AssemblyReference.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T10:24:29.411Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IMessage.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\IMessage.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\Abstraction\\IMessage.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\IMessage.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\IMessage.cs",
-              "RelativeToolTip": "capygram.Common\\Abstraction\\IMessage.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\IMessage.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T04:04:16.906Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 63,
               "Title": "DomainEvents.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\DomainEvents.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\IntegrationEvents\\DomainEvents.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\DomainEvents.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\DomainEvents.cs",
-              "RelativeToolTip": "capygram.Common\\IntegrationEvents\\DomainEvents.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\DomainEvents.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T04:15:00.627Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MasstransitOptions.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\MasstransitOptions.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\MasstransitOptions.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\MasstransitOptions.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\MasstransitOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T03:09:28.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "IJwtServices.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Services\\IJwtServices.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Services\\IJwtServices.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Services\\IJwtServices.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Services\\IJwtServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:16:39.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IUserServices.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Services\\IUserServices.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Services\\IUserServices.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Services\\IUserServices.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Services\\IUserServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAoAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T19:40:36.509Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 65,
               "Title": "ServicesCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
-              "RelativeToolTip": "capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DependencyInjection\\Extensions\\ServicesCollectionExtensions.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T19:25:50.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 61,
               "Title": "capygram.Commonn.csproj",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\capygram.Commonn.csproj",
-              "RelativeDocumentMoniker": "capygram.Common\\capygram.Commonn.csproj",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\capygram.Commonn.csproj",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\capygram.Commonn.csproj",
-              "RelativeToolTip": "capygram.Common\\capygram.Commonn.csproj",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\capygram.Commonn.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-06-07T19:25:41.879Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 66,
               "Title": "INotification.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\INotification.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\Abstraction\\INotification.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\INotification.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\INotification.cs",
-              "RelativeToolTip": "capygram.Common\\Abstraction\\INotification.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Abstraction\\INotification.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T04:13:13.878Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 67,
               "Title": "Command.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\Command.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\IntegrationEvents\\Command.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\Command.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\Command.cs",
-              "RelativeToolTip": "capygram.Common\\IntegrationEvents\\Command.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\IntegrationEvents\\Command.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-09T04:14:31.615Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\appsettings.Development.json",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-07T16:02:53.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "JwtServices.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Services\\JwtServices.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Services\\JwtServices.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Services\\JwtServices.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Services\\JwtServices.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAkwAoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:17:49.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UserDBSetting.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\UserDBSetting.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\UserDBSetting.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\UserDBSetting.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\UserDBSetting.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:36:36.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\Role.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Model\\Role.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\Role.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Model\\Role.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:18:13.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\User.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Model\\User.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\User.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Model\\User.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA8AAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:17:41.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserServices.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Services\\UserServices.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Services\\UserServices.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Services\\UserServices.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Services\\UserServices.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwEMAAAAQAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T19:40:42.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:42:56.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwBgAAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T19:32:53.302Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Profile.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\Profile.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Model\\Profile.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Model\\Profile.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Model\\Profile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:18:03.161Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 68,
               "Title": "UserAuthenticationResponse.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs",
-              "RelativeToolTip": "capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationResponse.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T19:52:19.405Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\appsettings.json",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\appsettings.json",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\appsettings.json",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-07T16:02:52.014Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Program.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Program.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Program.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAIBZwCUAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T17:52:36.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 69,
               "Title": "UserAuthenticationDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
-              "RelativeToolTip": "capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserAuthenticationDto.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T19:08:29.253Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 70,
               "Title": "UserRegisterDto.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
-              "RelativeToolTip": "capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\DTOs\\User\\UserRegisterDto.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T18:41:59.708Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAADgvxcAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:08:49.375Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 71,
               "Title": "MustHaveRoleAttribute.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\MustHaveRoleAttribute.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\Identity\\MustHaveRoleAttribute.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\MustHaveRoleAttribute.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\MustHaveRoleAttribute.cs",
-              "RelativeToolTip": "capygram.Common\\Identity\\MustHaveRoleAttribute.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\MustHaveRoleAttribute.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T09:42:55.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 72,
               "Title": "RoleAuthorizationHandler.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleAuthorizationHandler.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\Identity\\RoleAuthorizationHandler.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleAuthorizationHandler.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleAuthorizationHandler.cs",
-              "RelativeToolTip": "capygram.Common\\Identity\\RoleAuthorizationHandler.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleAuthorizationHandler.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T09:47:01.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 73,
               "Title": "RoleRequirement.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleRequirement.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\Identity\\RoleRequirement.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleRequirement.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleRequirement.cs",
-              "RelativeToolTip": "capygram.Common\\Identity\\RoleRequirement.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RoleRequirement.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T09:44:03.644Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 74,
               "Title": "RolePolicyProvider.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RolePolicyProvider.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\Identity\\RolePolicyProvider.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RolePolicyProvider.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RolePolicyProvider.cs",
-              "RelativeToolTip": "capygram.Common\\Identity\\RolePolicyProvider.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Identity\\RolePolicyProvider.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T09:45:01.249Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 75,
               "Title": "Result.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\Result.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\Shared\\Result.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\Result.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\Result.cs",
-              "RelativeToolTip": "capygram.Common\\Shared\\Result.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\Result.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T19:43:19.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "UserContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\UserContext.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Data\\UserContext.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\UserContext.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Data\\UserContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T21:08:27.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Dockerfile",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Dockerfile",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Dockerfile",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Dockerfile",
-              "ViewState": "AQIAAAAAAAAAAAAAACBjwBUAAABDAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-07T20:30:52.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 76,
               "Title": "DomainException.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Exception\\DomainException.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\Exception\\DomainException.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Exception\\DomainException.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Exception\\DomainException.cs",
-              "RelativeToolTip": "capygram.Common\\Exception\\DomainException.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Exception\\DomainException.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T09:51:12.338Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Seeder.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\Seeder.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Data\\Seeder.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\Seeder.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Data\\Seeder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB8AAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T21:11:40.468Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "JwtOptions.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\JwtOptions.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\JwtOptions.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\DependencyInjection\\Options\\JwtOptions.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\DependencyInjection\\Options\\JwtOptions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T18:27:08.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 62,
               "Title": "Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
-              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.300\\Sdks\\Microsoft.NET.Sdk.Razor\\targets\\Microsoft.NET.Sdk.Razor.MvcApplicationPartsDiscovery.targets",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2024-06-07T21:35:32.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T21:35:32.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "IUserContext.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\IUserContext.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Data\\IUserContext.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Data\\IUserContext.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Data\\IUserContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T21:08:03.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "IEncrypter.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Services\\IEncrypter.cs",
-              "RelativeDocumentMoniker": "src\\Services\\capygram.Auth\\Domain\\Services\\IEncrypter.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Auth\\Domain\\Services\\IEncrypter.cs",
-              "RelativeToolTip": "src\\Services\\capygram.Auth\\Domain\\Services\\IEncrypter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T20:06:38.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 77,
               "Title": "ResultDetail.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\ResultDetail.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\Shared\\ResultDetail.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\ResultDetail.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\ResultDetail.cs",
-              "RelativeToolTip": "capygram.Common\\Shared\\ResultDetail.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\Shared\\ResultDetail.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T19:43:36.831Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 78,
               "Title": "AssemblyReference.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\AssemblyReference.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\AssemblyReference.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\AssemblyReference.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\AssemblyReference.cs",
-              "RelativeToolTip": "capygram.Common\\AssemblyReference.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\AssemblyReference.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T19:27:55.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 79,
               "Title": "UserMessage.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\MessageResult\\UserMessage.cs",
-              "RelativeDocumentMoniker": "capygram.Common\\MessageResult\\UserMessage.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\MessageResult\\UserMessage.cs",
               "ToolTip": "C:\\Users\\Administrator\\Downloads\\capygram-be\\capygram.Common\\MessageResult\\UserMessage.cs",
-              "RelativeToolTip": "capygram.Common\\MessageResult\\UserMessage.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Administrator\\Downloads\\capygram-be\\capygram.Common\\MessageResult\\UserMessage.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T19:15:50.277Z"
             }

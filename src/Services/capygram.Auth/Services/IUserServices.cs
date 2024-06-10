@@ -6,8 +6,9 @@ namespace capygram.Auth.Services
     public interface IUserServices
     {
         Task<Result<UserAuthenticationResponse>> Login(UserAuthenticationDto request);
-        Task<Result<UserAuthenticationResponse>> Register(UserRegisterDto request);
-        Task<Result<string>> Logout();
-        Task<Result<string>> RefreshToken();
+        Task<Result<string>> Register(UserRegisterDto request);
+        Task<Result<UserAuthenticationResponse>> ActiveAccount(UserRegisterDto request);
+        Task<Result<string>> Logout(Guid Id);
+        Task<Result<UserAuthenticationResponse>> RefreshToken(UserRefreshTokenDto request);
     }
 }

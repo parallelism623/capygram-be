@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Name": "src\\Services\\capygram.Auth\\capygram.Auth.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "src\\Services\\capygram.Notification\\capygram.Notification.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

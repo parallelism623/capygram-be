@@ -1,4 +1,6 @@
-﻿namespace capygram.Auth.DependencyInjection.Options
+﻿using capygram.Common.Abstraction;
+
+namespace capygram.Auth.DependencyInjection.Options
 {
     public class MasstransitOptions
     {

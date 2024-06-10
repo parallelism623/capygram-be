@@ -2,6 +2,7 @@ using capygram.Auth.DependencyInjection.Extensions;
 using capygram.Auth.Domain.Data;
 using capygram.Auth.Domain.Services;
 using capygram.Common.DependencyInjection.Extensions;
+using capygram.Common.Middlewares;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,8 +15,10 @@ builder.Services
     .AddConfigOption(builder.Configuration)
     .AddJwtAuthentication(builder.Configuration)
     .AddServices()
-    .AddIdentityHandler();
+    .AddIdentityHandler()
+    .ConfigurationMasstransit(builder.Configuration);
 builder.Services.AddHttpContextAccessor();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -26,7 +29,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();
 
