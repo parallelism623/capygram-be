@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\capygram.Ocelot.props" />
+</Project>

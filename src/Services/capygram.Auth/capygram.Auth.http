@@ -1,0 +1,6 @@
+@capygram.Auth_HostAddress = http://localhost:5090
+
+GET {{capygram.Auth_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
