@@ -1,6 +1,6 @@
 ﻿using capygram.Common.DTOs.User;
 using capygram.Notification.DependencyInjection.Options;
-using capygram.Notification.Template;
+
 using MailKit.Net.Smtp;
 using Microsoft.Extensions.Options;
 using MimeKit;

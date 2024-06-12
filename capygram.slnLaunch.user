@@ -4,11 +4,13 @@
     "Projects": [
       {
         "Name": "src\\Services\\capygram.Auth\\capygram.Auth.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": "https"
       },
       {
         "Name": "src\\Services\\capygram.Notification\\capygram.Notification.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": "https"
       }
     ]
   }

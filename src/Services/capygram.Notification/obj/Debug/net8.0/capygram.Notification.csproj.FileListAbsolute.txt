@@ -48,3 +48,4 @@ C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\
 C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\RabbitMQ.Client.dll
 C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\capygram.Common.dll
 C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\capygram.Common.pdb
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\capygram.Notification.staticwebassets.runtime.json

@@ -10,6 +10,7 @@ using MassTransit;
 using Microsoft.AspNetCore.Http.HttpResults;
 using System.Security.Claims;
 using capygram.Auth.MessageBus.Events;
+using capygram.Common.MessageBus.Events;
 
 namespace capygram.Auth.Services
 {
@@ -47,7 +48,7 @@ namespace capygram.Auth.Services
             {
                 throw new BadRequestException("OTP is invalid");
             }
-            
+            #region Mapper
             var newUser = new User();
             newUser.UserName = request.UserName;
             newUser.Email = request.Email;
@@ -59,11 +60,20 @@ namespace capygram.Auth.Services
             newUser.RefreshToken = await _jwtServices.GenerateRefreshToken();
             newUser.ExpiratimeRefreshToken = DateTime.UtcNow.AddDays(2405);
             newUser.Roles = new List<Role> { new Role { Name = "USER"} };
+            #endregion
             await _userRepository.AddUserAsync(newUser);
             var result = new UserAuthenticationResponse(newUser.Id, newUser.Profile.FullName, "", newUser.Profile.FullName);
             result.AccessToken = newUser.AccessToken;
             result.RefreshToken = newUser.RefreshToken;
             await _userRepository.RemoveUserOTPAsync(userOTP);
+            var userNotification = new UserChangedNotification();
+            userNotification.Type = "Add";
+            userNotification.Id = Guid.NewGuid();
+            userNotification.User.Id = newUser.Id;
+            userNotification.User.FullName = request.FullName;
+            userNotification.User.DisplayName = request.FullName;
+            using var source = new CancellationTokenSource(TimeSpan.FromSeconds(30));
+            await _publishEndpoint.Publish(userNotification, source.Token);
             return Result<UserAuthenticationResponse>.CreateResult(true, new ResultDetail("200", "Success"), result);
         }
 

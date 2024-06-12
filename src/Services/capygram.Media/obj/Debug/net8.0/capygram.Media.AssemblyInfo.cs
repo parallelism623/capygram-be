@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("capygram.Media")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5ba361aedb8eb125c049b0798af206fcdff0c23")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c620719471b08e6000067ef1c77b6431d523b0e")]
 [assembly: System.Reflection.AssemblyProductAttribute("capygram.Media")]
 [assembly: System.Reflection.AssemblyTitleAttribute("capygram.Media")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
