@@ -11,6 +11,11 @@
         "Name": "src\\Services\\capygram.Notification\\capygram.Notification.csproj",
         "Action": "Start",
         "DebugTarget": "https"
+      },
+      {
+        "Name": "src\\Services\\capygram.Graph\\capygram.Graph.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
       }
     ]
   }

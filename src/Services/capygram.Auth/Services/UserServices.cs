@@ -65,15 +65,16 @@ namespace capygram.Auth.Services
             var result = new UserAuthenticationResponse(newUser.Id, newUser.Profile.FullName, "", newUser.Profile.FullName);
             result.AccessToken = newUser.AccessToken;
             result.RefreshToken = newUser.RefreshToken;
-            await _userRepository.RemoveUserOTPAsync(userOTP);
+            
             var userNotification = new UserChangedNotification();
-            userNotification.Type = "Add";
+            userNotification.Type = "add";
             userNotification.Id = Guid.NewGuid();
             userNotification.User.Id = newUser.Id;
             userNotification.User.FullName = request.FullName;
             userNotification.User.DisplayName = request.FullName;
             using var source = new CancellationTokenSource(TimeSpan.FromSeconds(30));
             await _publishEndpoint.Publish(userNotification, source.Token);
+            await _userRepository.RemoveUserOTPAsync(userOTP);
             return Result<UserAuthenticationResponse>.CreateResult(true, new ResultDetail("200", "Success"), result);
         }
 

@@ -1,0 +1,6 @@
+@capygram.Graph_HostAddress = http://localhost:5057
+
+GET {{capygram.Graph_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

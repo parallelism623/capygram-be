@@ -10,6 +10,6 @@ namespace capygram.Common.MessageBus.Events
         public string Type { get; set; }
         public Guid Id { get; set; }
         public DateTimeOffset TimeStamp { get; set; } = DateTimeOffset.UtcNow;
-        public UserChangedNotificationDto User { get; set; }
+        public UserChangedNotificationDto User { get; set; } = new UserChangedNotificationDto();
     }
 }
