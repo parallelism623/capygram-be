@@ -82,3 +82,17 @@ C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\obj\Debug\net8.0
 C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\obj\Debug\net8.0\capygram.707F18BB.Up2Date
 C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\obj\Debug\net8.0\capygram.Common.genruntimeconfig.cache
 C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\obj\Debug\net8.0\ref\capygram.Common.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\Serilog.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\System.Web.Mvc.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\System.Web.Razor.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\System.Web.Helpers.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\System.Web.WebPages.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Common\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll

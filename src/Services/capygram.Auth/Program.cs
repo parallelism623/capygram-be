@@ -3,10 +3,18 @@ using capygram.Auth.Domain.Data;
 using capygram.Auth.Domain.Services;
 using capygram.Common.DependencyInjection.Extensions;
 using capygram.Common.Middlewares;
+using Serilog;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+Log.Logger = new LoggerConfiguration().ReadFrom
+    .Configuration(builder.Configuration)
+    .CreateLogger();
+builder.Logging
+    .ClearProviders()
+    .AddSerilog();
 
+builder.Host.UseSerilog();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -16,7 +24,8 @@ builder.Services
     .AddJwtAuthentication(builder.Configuration)
     .AddServices()
     .AddIdentityHandler()
-    .ConfigurationMasstransit(builder.Configuration);
+    .ConfigurationMasstransit(builder.Configuration)
+    .ConfigurationFluentValidation();
 builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
@@ -34,7 +43,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-using (     var scope = app.Services.CreateScope())
+using (var scope = app.Services.CreateScope())
 {
     var user = scope.ServiceProvider.GetService<IUserContext>().Users;
     var encypter = scope.ServiceProvider.GetService<IEncrypter>();

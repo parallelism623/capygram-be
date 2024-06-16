@@ -17,6 +17,22 @@
   },
   {
     "ContainingType": "capygram.Auth.Controllers.UsersController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Users/edit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "capygram.Common.DTOs.User.UserUpdateProfileDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "capygram.Auth.Controllers.UsersController",
     "Method": "Login",
     "RelativePath": "api/Users/login",
     "HttpMethod": "POST",

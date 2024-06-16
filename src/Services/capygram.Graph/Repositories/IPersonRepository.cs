@@ -9,6 +9,7 @@ namespace capygram.Graph.Repositories
         Task<bool> AddRelationshipAsync(Guid id, Guid did);
         Task<bool> DeleteRelationshipAsync(Guid id, Guid did);
         Task<bool> IsHaveRelationShip(Guid id, Guid did);
- 
+        Task<bool> UpdateAsync(UserChangedNotificationDto entities);
+        Task<bool> RemoveAsync(UserChangedNotificationDto entities);
     }
 }

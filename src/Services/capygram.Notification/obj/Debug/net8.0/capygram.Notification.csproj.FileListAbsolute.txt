@@ -49,3 +49,17 @@ C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\
 C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\capygram.Common.dll
 C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\capygram.Common.pdb
 C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\capygram.Notification.staticwebassets.runtime.json
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\Serilog.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\Serilog.Sinks.File.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\System.Web.Mvc.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\System.Web.Razor.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\System.Web.Helpers.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\System.Web.WebPages.dll
+C:\Users\hieud\Code\C#\capygram-be\src\Services\capygram.Notification\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll

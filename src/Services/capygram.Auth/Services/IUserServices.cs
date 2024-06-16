@@ -10,5 +10,6 @@ namespace capygram.Auth.Services
         Task<Result<UserAuthenticationResponse>> ActiveAccount(UserRegisterDto request);
         Task<Result<string>> Logout(Guid Id);
         Task<Result<UserAuthenticationResponse>> RefreshToken(UserRefreshTokenDto request);
+        Task<Result<string>> UpdateProfile(UserUpdateProfileDto request);
     }
 }

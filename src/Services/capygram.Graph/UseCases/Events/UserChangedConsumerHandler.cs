@@ -26,15 +26,15 @@ namespace capygram.Graph.UseCases.Events
         }
         private async Task HandleAddUser(UserChangedNotificationDto user)
         {
-            var result = await _personServices.AddAsync<UserChangedNotificationDto>(user);
+            await _personServices.AddAsync<UserChangedNotificationDto>(user);
         }
         private async Task HandleUpdateUser(UserChangedNotificationDto user)
         {
-
+            await _personServices.UpdateAsync<UserChangedNotificationDto>(user);
         }
         private async Task HandleDeleteUser(UserChangedNotificationDto user)
         {
-
+            await _personServices.RemoveAsync<UserChangedNotificationDto>(user);
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using capygram.Common.DTOs.User;
+using capygram.Common.Exceptions;
 using capygram.Graph.DependencyInjection.Options;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
@@ -39,22 +40,22 @@ namespace capygram.Graph.Repositories
             try
             {
                 await _client.Cypher
-                    .Merge("(user{ Id: {id} })")
+                    .Merge("(user{ Id: $id })")
                     .OnCreate()
-                    .Set("user = {newUser}")
+                    .Set("user = $newUser")
                     .WithParams(new
                     {
                         id = entities.Id,
-                        entities
+                        newUser = entities
                     })
                     .ExecuteWithoutResultsAsync();
                     return true;
             }
             catch (Exception ex)
             {
-                return false;
+                throw new BadRequestException(ex.Message);
             }
-            
+           
         }
 
 
@@ -95,7 +96,37 @@ namespace capygram.Graph.Repositories
             return result.Any();
         }
 
+        public async Task<bool> UpdateAsync(UserChangedNotificationDto entities)
+        {
+            try
+            {
+                await _client.Cypher
+                    .Merge("(user{ Id: $id })")
+                    .OnCreate()
+                    .Set("user.AvatarUrl = $newUser")
+                    .WithParams(new
+                    {
+                        id = entities.Id,
+                        AvatarUrl = entities.AvatarUrl
+                    })
+                    .ExecuteWithoutResultsAsync();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw new BadRequestException(ex.Message);
+            }
+        }
 
+        public async Task<bool> RemoveAsync(UserChangedNotificationDto entities)
+        {
+            await _client.Cypher
+                .Match("(user)")
+                .Where((UserChangedNotificationDto user) => user.Id == entities.Id)
+                .Delete("user")
+                .ExecuteWithoutResultsAsync();
+            return true;
+        }
     }
 
 

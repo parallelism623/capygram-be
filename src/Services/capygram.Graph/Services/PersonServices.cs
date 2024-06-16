@@ -47,5 +47,17 @@ namespace capygram.Graph.Services
             await _personRepository.DeleteRelationshipAsync(id, did);
             return "Delete Relationship Success";
         }
+
+        public async Task<Result<string>> UpdateAsync<T>(T entities)
+        {
+            var result = await _personRepository.AddAsync(entities as UserChangedNotificationDto);
+            return "Update User Success";
+        }
+
+        public async Task<Result<string>> RemoveAsync<T>(T entities)
+        {
+            var result = await _personRepository.RemoveAsync(entities as UserChangedNotificationDto);
+            return "Remove User Success";
+        }
     }
 }

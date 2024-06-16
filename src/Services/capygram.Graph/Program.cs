@@ -1,3 +1,4 @@
+using capygram.Common.Middlewares;
 using capygram.Graph.DependencyInjection.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,7 +24,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
+app.UseMiddleware<ExceptionHandlingMiddleware>();
 app.UseHttpsRedirection();
 
 app.UseAuthorization();

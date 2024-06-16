@@ -60,6 +60,7 @@ namespace capygram.Auth.Services
             newUser.RefreshToken = await _jwtServices.GenerateRefreshToken();
             newUser.ExpiratimeRefreshToken = DateTime.UtcNow.AddDays(2405);
             newUser.Roles = new List<Role> { new Role { Name = "USER"} };
+            newUser.Profile.AvatarUrl = request.AvatarUrl;
             #endregion
             await _userRepository.AddUserAsync(newUser);
             var result = new UserAuthenticationResponse(newUser.Id, newUser.Profile.FullName, "", newUser.Profile.FullName);
@@ -72,6 +73,7 @@ namespace capygram.Auth.Services
             userNotification.User.Id = newUser.Id;
             userNotification.User.FullName = request.FullName;
             userNotification.User.DisplayName = request.FullName;
+            userNotification.User.AvatarUrl = request.AvatarUrl;
             using var source = new CancellationTokenSource(TimeSpan.FromSeconds(30));
             await _publishEndpoint.Publish(userNotification, source.Token);
             await _userRepository.RemoveUserOTPAsync(userOTP);
@@ -185,6 +187,28 @@ namespace capygram.Auth.Services
 
             return Result<string>.CreateResult(true, new ResultDetail("200", "Success"), "Send OTP success");
         }
+
+        public async Task<Result<string>> UpdateProfile(UserUpdateProfileDto request)
+        {
+            var user = await _userRepository.GetUserByIdAsync(request.Id);
+            if (user is null)
+            {
+                throw new NotFoundException("User Is Not Found");
+            }
+            user.Profile.AvatarUrl = request.AvatarUrl;
+            user.Profile.Story = request.Story;
+            user.Profile.Gender = request.Gender;
+            await _userRepository.UpdateUserAsync(request.Id, user);
+            var userNotification = new UserChangedNotification();
+            userNotification.Type = "update";
+            userNotification.Id = Guid.NewGuid();
+            userNotification.User.Id = user.Id;
+            userNotification.User.AvatarUrl = request.AvatarUrl;
+            using var source = new CancellationTokenSource(TimeSpan.FromSeconds(30));
+            await _publishEndpoint.Publish(userNotification, source.Token);
+            return "Update User Successful";
+        }
+
         private List<Claim> GetClaims(User user)
         {
             var claims = new List<Claim>

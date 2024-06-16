@@ -116,5 +116,6 @@ namespace capygram.Auth.DependencyInjection.Extensions
             });
             return services;
         }
+
     }
 }

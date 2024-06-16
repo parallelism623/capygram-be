@@ -1,4 +1,5 @@
-﻿using capygram.Graph.DependencyInjection.Options;
+﻿using capygram.Common.Middlewares;
+using capygram.Graph.DependencyInjection.Options;
 
 using capygram.Graph.Repositories;
 using capygram.Graph.Services;
@@ -21,6 +22,7 @@ namespace capygram.Graph.DependencyInjection.Extensions
         {
             services.AddScoped<IPersonRepository, PersonRepository>();
             services.AddScoped<IPersonServices, PersonServices>();
+            services.AddSingleton<ExceptionHandlingMiddleware>();
             return services;
         }
         public static IServiceCollection ConfigurationOptions(this IServiceCollection services
@@ -48,6 +50,7 @@ namespace capygram.Graph.DependencyInjection.Extensions
             config.GetRequiredSection("MasstransitOptions").Bind(massOp);
             services.AddMassTransit(cfg =>
             {
+                
                 cfg.AddConsumers(Assembly.GetExecutingAssembly());
                 cfg.SetKebabCaseEndpointNameFormatter();
                 cfg.UsingRabbitMq((context, bus) =>
@@ -59,6 +62,7 @@ namespace capygram.Graph.DependencyInjection.Extensions
                     });
                     bus.MessageTopology.SetEntityNameFormatter(new KebabCaseEntityNameFormatter());
                     bus.ConfigureEndpoints(context);
+                    bus.UseMessageRetry(r => r.Immediate(5));
                 });
             });
             return services;

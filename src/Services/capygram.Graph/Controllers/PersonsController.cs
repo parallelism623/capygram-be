@@ -3,6 +3,7 @@ using capygram.Graph.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Neo4jClient;
+using System;
 
 namespace capygram.Graph.Controllers
 {
@@ -11,12 +12,12 @@ namespace capygram.Graph.Controllers
     public class PersonsController : ControllerBase
     {
         private readonly IPersonServices _personServices;
-     
+
         public PersonsController(IPersonServices personServices)
         {
             _personServices = personServices;
-    
         }
+
         [HttpGet("{Id}/follower")]
         public async Task<IActionResult> GetFollowerAsync(Guid Id)
         {
