@@ -15,11 +15,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Ocelot", "src\ApiG
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Common", "src\Services\capygram.Common\capygram.Common.csproj", "{13735BAE-B62A-465E-8EAA-9EA21E579673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capygram.Notification", "src\Services\capygram.Notification\capygram.Notification.csproj", "{A8681125-0556-4530-B916-8924F573EB8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Notification", "src\Services\capygram.Notification\capygram.Notification.csproj", "{A8681125-0556-4530-B916-8924F573EB8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capygram.Media", "src\Services\capygram.Media\capygram.Media.csproj", "{614F9376-030F-4BCC-8DF3-6A7114610BFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Media", "src\Services\capygram.Media\capygram.Media.csproj", "{614F9376-030F-4BCC-8DF3-6A7114610BFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capygram.Post", "src\Services\capygram.Post\capygram.Post.csproj", "{E9C151C6-A2B5-4F22-B419-9B923DD779FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Post", "src\Services\capygram.Post\capygram.Post.csproj", "{E9C151C6-A2B5-4F22-B419-9B923DD779FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Graph", "src\Services\capygram.Graph\capygram.Graph.csproj", "{ED0926BB-9F00-4B25-B11C-2C2E20DB1E7C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{E9C151C6-A2B5-4F22-B419-9B923DD779FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9C151C6-A2B5-4F22-B419-9B923DD779FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9C151C6-A2B5-4F22-B419-9B923DD779FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED0926BB-9F00-4B25-B11C-2C2E20DB1E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED0926BB-9F00-4B25-B11C-2C2E20DB1E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED0926BB-9F00-4B25-B11C-2C2E20DB1E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED0926BB-9F00-4B25-B11C-2C2E20DB1E7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{A8681125-0556-4530-B916-8924F573EB8E} = {3F09658E-EE8D-4508-ACE4-BAFC1BD8FA81}
 		{614F9376-030F-4BCC-8DF3-6A7114610BFA} = {3F09658E-EE8D-4508-ACE4-BAFC1BD8FA81}
 		{E9C151C6-A2B5-4F22-B419-9B923DD779FC} = {3F09658E-EE8D-4508-ACE4-BAFC1BD8FA81}
+		{ED0926BB-9F00-4B25-B11C-2C2E20DB1E7C} = {3F09658E-EE8D-4508-ACE4-BAFC1BD8FA81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {512AF22C-BFA1-44D3-8053-611AD9396919}

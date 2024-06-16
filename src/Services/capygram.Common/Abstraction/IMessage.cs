@@ -8,7 +8,7 @@ using MediatR;
 namespace capygram.Common.Abstraction
 {
     
-    public class IMessage : IRequest
+    public interface IMessage : IRequest
     {
     }
 }

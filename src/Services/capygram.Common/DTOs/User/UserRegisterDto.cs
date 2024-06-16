@@ -14,7 +14,8 @@ namespace capygram.Common.DTOs.User
         public string Email { get; set; }
         public string FullName { get; set; } 
         public DateTime Birthday { get; set; }
-
+        public string AvatarUrl { get; set; } = "https://i.pinimg.com/736x/bc/43/98/bc439871417621836a0eeea768d60944.jpg";
+        public string OTP { get; set; }
     }
     public class UserRegisterDtoValidation : AbstractValidator<UserRegisterDto>
     {

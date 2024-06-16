@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "Hash": "vkOrVVh4CaUQer5X6HT8n87S6ccqturHJmBVg4rjkOo=",
+  "Source": "capygram.Notification",
+  "BasePath": "_content/capygram.Notification",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Common\\capygram.Common.csproj",
+      "Version": 2,
+      "Source": "capygram.Common",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "capygram.Notification\\wwwroot",
+      "Source": "capygram.Notification",
+      "ContentRoot": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\wwwroot\\",
+      "BasePath": "_content/capygram.Notification",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\wwwroot\\mailtemplate.html",
+      "SourceId": "capygram.Notification",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\wwwroot\\",
+      "BasePath": "_content/capygram.Notification",
+      "RelativePath": "mailtemplate.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\mailtemplate.html"
+    }
+  ]
+}

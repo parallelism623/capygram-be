@@ -8,6 +8,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using FluentValidation;
+using MassTransit;
 
 namespace capygram.Common.DependencyInjection.Extensions
 {
@@ -22,6 +23,14 @@ namespace capygram.Common.DependencyInjection.Extensions
         {   
             services.AddSingleton<IAuthorizationPolicyProvider, RolePolicyProvider>();
             services.AddTransient<IAuthorizationHandler, RoleAuthorizationHandler>();
+            return services;
+        }
+        public static IServiceCollection ConfigurationMediatR(this IServiceCollection services, Assembly assembly)
+        {
+            services.AddMediatR(cfg =>
+            {
+                cfg.RegisterServicesFromAssembly(assembly);
+            });
             return services;
         }
     }

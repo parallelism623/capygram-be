@@ -13,6 +13,9 @@ using capygram.Auth.Domain.Services;
 using capygram.Common.Shared;
 using MassTransit;
 using capygram.Common.Abstraction;
+using capygram.Common.Exceptions;
+using capygram.Common.Middlewares;
+using System.Reflection;
 
 namespace capygram.Auth.DependencyInjection.Extensions
 {
@@ -22,6 +25,8 @@ namespace capygram.Auth.DependencyInjection.Extensions
         {
             services.Configure<UserDBSetting>(configuration.GetSection("UserDatabase"));
             services.Configure<JwtOptions>(configuration.GetSection("JwtOptions"));
+
+            services.Configure<MasstransitOptions>(configuration.GetSection("MasstransitOptions"));
             return services;
         }
         public static IServiceCollection AddServices(this IServiceCollection services)
@@ -31,6 +36,8 @@ namespace capygram.Auth.DependencyInjection.Extensions
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserContext, UserContext>();
             services.AddSingleton<IEncrypter, Encrypter>();
+
+            services.AddSingleton<ExceptionHandlingMiddleware>();
             return services;
         }
         public static IServiceCollection AddJwtAuthentication(this IServiceCollection services, IConfiguration configuration)
@@ -62,8 +69,8 @@ namespace capygram.Auth.DependencyInjection.Extensions
                     {
                         var accessToken = context.Request.Query["access_token"];
 
-                        if (!string.IsNullOrEmpty(accessToken) &&
-                            context.HttpContext.Request.Path.StartsWithSegments("/notifications"))
+                        if (!string.IsNullOrEmpty(accessToken) 
+                            )
                         {
        
                             context.Token = accessToken;
@@ -74,21 +81,12 @@ namespace capygram.Auth.DependencyInjection.Extensions
                     OnForbidden = context =>
                     {
                         // Custom behavior when access is forbidden
-                        context.Response.StatusCode = 200;
-                        context.Response.ContentType = "application/json";
-                        var result = Newtonsoft.Json.JsonConvert
-                            .SerializeObject(Result<string>.CreateResult(false, new ResultDetail("403", "Forbidden"), "You are forbidden"));
-                        return context.Response.WriteAsync(result);
+                        throw new ForbiddenException("User is forbiddened");
                     },
                     OnChallenge = context =>
                     {
                         // Custom behavior when challenging the user
-                        context.HandleResponse(); // Suppress the default behavior
-                        context.Response.StatusCode = 401;
-                        context.Response.ContentType = "application/json";
-                        var result = Newtonsoft.Json.JsonConvert
-                            .SerializeObject(Result<string>.CreateResult(false, new ResultDetail("401", "Unauthorized"), "You are not authorized"));
-                        return context.Response.WriteAsync(result);
+                        throw new UnAuthorizedExeption("User is not authenticated");
                     },
                    
                 };
@@ -96,25 +94,28 @@ namespace capygram.Auth.DependencyInjection.Extensions
 
             return services;
         }
-        public static IServiceCollection AddMasstransitConfiguration(this IServiceCollection services, IConfiguration configuration)
+
+        public static IServiceCollection ConfigurationMasstransit(this IServiceCollection services, IConfiguration config)
         {
-            var masstransitOptions = new MasstransitOptions();
-            configuration.GetRequiredSection("MasstransitOptions").Bind(masstransitOptions);
+            var massOp = new MasstransitOptions();
+            config.GetRequiredSection("MasstransitOptions").Bind(massOp);
             services.AddMassTransit(cfg =>
             {
+                cfg.AddConsumers(Assembly.GetExecutingAssembly());
+                cfg.SetKebabCaseEndpointNameFormatter();
                 cfg.UsingRabbitMq((context, bus) =>
                 {
-                    bus.Host(masstransitOptions.Host, masstransitOptions.VHost, h =>
+                    bus.Host(massOp.Host, massOp.VHost, host =>
                     {
-                        h.Username(masstransitOptions.UserName);
-                        h.Password(masstransitOptions.Password);
-                    }); 
-                    bus.Message<INotification>
+                        host.Username(massOp.UserName);
+                        host.Password(massOp.Password);
+                    });
+                    bus.MessageTopology.SetEntityNameFormatter(new KebabCaseEntityNameFormatter());
+                    bus.ConfigureEndpoints(context);
                 });
-
             });
-
             return services;
         }
+
     }
 }

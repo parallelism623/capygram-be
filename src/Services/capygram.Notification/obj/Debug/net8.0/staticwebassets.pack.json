@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\hieud\\Code\\C#\\capygram-be\\src\\Services\\capygram.Notification\\wwwroot\\mailtemplate.html",
+      "PackagePath": "staticwebassets\\mailtemplate.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.capygram.Notification.props",
+      "PackagePath": "build\\capygram.Notification.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.capygram.Notification.props",
+      "PackagePath": "buildMultiTargeting\\capygram.Notification.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.capygram.Notification.props",
+      "PackagePath": "buildTransitive\\capygram.Notification.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.capygram.Notification.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

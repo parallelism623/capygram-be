@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("capygram.Ocelot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c5c200cc23117b744b46bdeb030988f3b565732e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d15614553aae8f0b6c42ec4804b3bd9fd1de75a")]
 [assembly: System.Reflection.AssemblyProductAttribute("capygram.Ocelot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("capygram.Ocelot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
