@@ -108,8 +108,8 @@ namespace capygram.Auth.DependencyInjection.Extensions
                     {
                         h.Username(masstransitOptions.UserName);
                         h.Password(masstransitOptions.Password);
-                    }); 
-                    bus.Message<INotification>
+                    });
+                    bus.Message<INotification>;
                 });
 
             });

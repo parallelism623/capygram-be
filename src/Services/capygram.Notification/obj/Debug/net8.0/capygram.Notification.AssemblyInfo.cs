@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("capygram.Notification")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0f89ac1d0e21933470d4c5a8e4c3016de0e873c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c37748f66c947edde6e8c57756d6ac7aa4130c2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("capygram.Notification")]
 [assembly: System.Reflection.AssemblyTitleAttribute("capygram.Notification")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

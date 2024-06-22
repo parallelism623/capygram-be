@@ -130,3 +130,14 @@ C:\Users\Administrator\Downloads\capygram-be\src\Services\capygram.Auth\obj\Debu
 C:\Users\Administrator\Downloads\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Downloads\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Administrator\Downloads\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.sourcelink.json
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.csproj.AssemblyReference.cache
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.GeneratedMSBuildEditorConfig.editorconfig
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.AssemblyInfoInputs.cache
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.AssemblyInfo.cs
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.csproj.CoreCompileInputs.cache
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.MvcApplicationPartsAssemblyInfo.cs
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.MvcApplicationPartsAssemblyInfo.cache
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.sourcelink.json
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.dll
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\refint\capygram.Auth.dll
+C:\coode\Hit_Product\capygram-be\src\Services\capygram.Auth\obj\Debug\net8.0\capygram.Auth.pdb

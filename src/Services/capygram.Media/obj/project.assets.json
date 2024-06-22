@@ -516,24 +516,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ToilaHieu\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Media\\capygram.Media.csproj",
+      "projectUniqueName": "C:\\coode\\Hit_Product\\capygram-be\\src\\Services\\capygram.Media\\capygram.Media.csproj",
       "projectName": "capygram.Media",
-      "projectPath": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Media\\capygram.Media.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Downloads\\capygram-be\\src\\Services\\capygram.Media\\obj\\",
+      "projectPath": "C:\\coode\\Hit_Product\\capygram-be\\src\\Services\\capygram.Media\\capygram.Media.csproj",
+      "packagesPath": "C:\\Users\\ToilaHieu\\.nuget\\packages\\",
+      "outputPath": "C:\\coode\\Hit_Product\\capygram-be\\src\\Services\\capygram.Media\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ToilaHieu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -593,7 +592,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
