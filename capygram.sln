@@ -15,11 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Ocelot", "src\ApiG
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Common", "src\Services\capygram.Common\capygram.Common.csproj", "{13735BAE-B62A-465E-8EAA-9EA21E579673}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capygram.Notification", "src\Services\capygram.Notification\capygram.Notification.csproj", "{A8681125-0556-4530-B916-8924F573EB8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Notification", "src\Services\capygram.Notification\capygram.Notification.csproj", "{A8681125-0556-4530-B916-8924F573EB8E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capygram.Media", "src\Services\capygram.Media\capygram.Media.csproj", "{614F9376-030F-4BCC-8DF3-6A7114610BFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Media", "src\Services\capygram.Media\capygram.Media.csproj", "{614F9376-030F-4BCC-8DF3-6A7114610BFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "capygram.Post", "src\Services\capygram.Post\capygram.Post.csproj", "{E9C151C6-A2B5-4F22-B419-9B923DD779FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "capygram.Post", "src\Services\capygram.Post\capygram.Post.csproj", "{E9C151C6-A2B5-4F22-B419-9B923DD779FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
